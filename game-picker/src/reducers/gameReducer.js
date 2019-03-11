@@ -5,10 +5,6 @@ import {
 const initialState = {
     games: [
         {
-            home: 'Celtics',
-            away: 'Lakers'
-        },
-        {
             home: 'Bucks',
             away: 'Raptors'
         },

@@ -1,0 +1,32 @@
+.playoff-bracket-view {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .west {
+        width: 50%;
+    }
+
+    .east {
+        width: 50%;
+    }
+}
