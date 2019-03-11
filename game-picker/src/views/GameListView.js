@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { test } from '../actions';
+import Game from '../components/Game'
 
 class GameListView extends Component {
     constructor() {
@@ -10,7 +11,7 @@ class GameListView extends Component {
     render() {
         return (
             <>
-                Game List View
+                <Game />
             </>
         );
     }
