@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { test } from '../actions';
 
 class GameListView extends Component {
     constructor() {
@@ -16,14 +17,14 @@ class GameListView extends Component {
 }
 
 const mapStateToProps = state => {
-    return (
-        // state
-    );
+    return {
+        text: state.text
+    };
 }
 
 export default connect (
     mapStateToProps,
     {
-        // action
+        test
     }
 )(GameListView);
