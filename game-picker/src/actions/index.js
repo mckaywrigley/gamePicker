@@ -1,8 +1,11 @@
-export const TEST = 'TEST';
+export const ADD_GAME = 'ADD_GAME';
 
-export function test(value) {
+let nextGameId = 0;
+
+export function addGame(value) {
     return {
-        type: TEST,
-        value
+        type: ADD_GAME,
+        value,
+        id: nextGameId++
     };
 }
