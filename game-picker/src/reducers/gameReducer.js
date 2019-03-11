@@ -1,18 +1,21 @@
 import {
-    // actions
+    TEST
 } from '../actions';
 
 const initialState = {
-
+    text: ''
 };
 
-export const gameReducer = {state = initialState, action} => {
+function gameReducer(state = initialState, action) {
     switch(action.type) {
-        case : 
+        case TEST: 
             return {
-
+                ...state,
+                text: 'working'
             };
         default:
             return state;
     }
 };
+
+export default gameReducer;
