@@ -17,7 +17,7 @@ class PlayoffBracketView extends Component {
                 <h2>Playoff Bracket</h2>
                     <div className="champion">
                         <h3>Champion</h3>
-                        <p>{this.props.teams[0].name}</p>
+                        <p>Winner</p>
                     </div>
                 <div className="west">
                     <div className="west-first-round">
@@ -29,16 +29,16 @@ class PlayoffBracketView extends Component {
                     </div>
                     <div className="west-semis">
                         <h3>West Semis</h3>
-                        <p><button>{this.props.teams[0].name}</button><button>{this.props.teams[1].name}</button></p>
-                        <p><button>{this.props.teams[2].name}</button><button>{this.props.teams[3].name}</button></p>
+                        <p><button>Team 1</button><button>Team 4</button></p>
+                        <p><button>Team 2</button><button>Team 3</button></p>
                     </div>
                     <div className="west-finals">
                         <h3>West Finals</h3>
-                        <p><button>{this.props.teams[0].name}</button><button>{this.props.teams[1].name}</button></p>
+                        <p><button>Team 1</button><button>Team 2</button></p>
                     </div>
                     <div className="west-winner">
                         <h3>West Winner</h3>
-                        <p><button>{this.props.teams[0].name}</button></p>
+                        <p><button>Team 1</button></p>
                     </div>
                 </div>
                 <div className="east">
@@ -51,16 +51,16 @@ class PlayoffBracketView extends Component {
                     </div>
                     <div className="east-semis">
                         <h3>East Semis</h3>
-                        <p><button>{this.props.teams[8].name}</button><button>{this.props.teams[9].name}</button></p>
-                        <p><button>{this.props.teams[10].name}</button><button>{this.props.teams[11].name}</button></p>
+                        <p><button>Team 1</button><button>Team 4</button></p>
+                        <p><button>Team 2</button><button>Team 3</button></p>
                     </div>
                     <div className="east-finals">
                         <h3>East Finals</h3>
-                        <p><button>{this.props.teams[8].name}</button><button>{this.props.teams[9].name}</button></p>
+                        <p><button>Team 1</button><button>Team 2</button></p>
                     </div>
                     <div className="east-winner">
                         <h3>East Winner</h3>
-                        <p><button>{this.props.teams[8].name}</button></p>
+                        <p><button>Team 1</button></p>
                     </div>                    
                 </div>
             </div>
