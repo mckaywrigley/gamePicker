@@ -27,8 +27,7 @@ class PlayoffBracketView extends Component {
                     <p>{this.props.teams[8].name} vs. {this.props.teams[9].name}</p>
                     <p>{this.props.teams[10].name} vs. {this.props.teams[11].name}</p>
                     <p>{this.props.teams[12].name} vs. {this.props.teams[13].name}</p>
-                    <p>{this.props.teams[14].name} vs. {this.props.teams[15
-                    ].name}</p>
+                    <p>{this.props.teams[14].name} vs. {this.props.teams[15].name}</p>
                 </div>
             </div>
         );
