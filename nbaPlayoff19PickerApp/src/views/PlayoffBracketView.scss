@@ -1,25 +1,51 @@
 .playoff-bracket-view {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
     flex-wrap: wrap;
-    
+
     h2 {
         display: flex;
         justify-content: center;
         width: 100%;
+        margin: 0;
+    }
+
+    // Champion Style
+    .champion {
+        width: 100%;
+        margin: 0;
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+    }
+
+    div {
+        margin-bottom: 50px;
     }
 
     h3 {
         display: flex;
         justify-content: center;
         width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0;
     }
 
     p {
         display: flex;
         justify-content: center;
         width: 100%;
+        margin: 10px 0;
     }
 
     .west {
