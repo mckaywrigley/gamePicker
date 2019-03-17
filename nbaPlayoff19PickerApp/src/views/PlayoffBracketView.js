@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { selectGame } from '../actions';
+import { pickWinner } from '../actions';
 import './PlayoffBracketView.scss';
 
 class PlayoffBracketView extends Component {
@@ -123,6 +123,6 @@ const mapStateToProps = state => {
 export default connect (
     mapStateToProps,
     {
-        selectGame
+        pickWinner
     }
 )(PlayoffBracketView);

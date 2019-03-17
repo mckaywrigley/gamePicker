@@ -1,5 +1,5 @@
 import {
-    SELECT_GAME
+    PICK_WINNER
 } from '../actions';
 
 const initialState = {
@@ -20,12 +20,29 @@ const initialState = {
         { location: 'Detroit', name: 'Pistons', conference: 'East', seed: 6 },
         { location: 'Brooklyn', name: 'Nets', conference: 'East', seed: 7 },
         { location: 'Miami', name: 'Heat', conference: 'East', seed: 8 }
-    ]
+    ],
+    winners: {
+        finals: {
+            champion: {}
+        },
+        west: {
+            roundOne: [],
+            semis: [],
+            finals: [],
+            winner: []
+        },
+        east: {
+            roundOne: [],
+            semis: [],
+            finals: [],
+            winner: []
+        }
+    }
 };
 
 function playoffReducer(state = initialState, action) {
     switch(action.type) {
-        case SELECT_GAME: 
+        case PICK_WINNER: 
             return {
                 ...state,
             };
